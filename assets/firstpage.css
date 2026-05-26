@@ -1,5 +1,10 @@
 header{
 
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+
     & figure{
         display: flex;
         align-items: center;
@@ -11,4 +16,49 @@ header{
 
        
     }
+    
+    & nav{
+        gap: 1rem;
+        margin-inline: 1rem;
+        
+        & ul{
+            display: flex;
+            gap: 1rem;
+            list-style: none;
+
+        }
+
+        & ul > li{
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        & a{
+            font: var(--paragraph);
+            color: var(--color-text);
+            text-decoration: none;
+        }
+    }
+
+    
 }
+
+.nav-list > li:hover{
+    transform: scale(1.05);
+}
+
+/* Responsividade */
+
+@media (max-width: 767px) {
+
+  .nav-list {
+    display: none;
+  }
+
+  header {
+    white-space: nowrap;
+    justify-content: center;
+  }
+
+}
+

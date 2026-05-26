@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }   
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 :root{
     --color-primary: #F3D5B5;
     --color-secondary: #E7BC91;
@@ -15,11 +21,11 @@
     --font-tangerine:"Tangerine", cursive;
     --font-inter: "Inter", sans-serif;
 
-    --h1: 800 4rem/120% var(--font-tangerine);        /* 64px */
-    --h2: 800 3rem/120% var(--font-tangerine);        /* 48px */
-    --h3: 400 2rem/120% var(--font-tangerine);        /* 32px */
-    --span: 500 0.875rem/100% var(--font-tangerine);  /* 14px */
-    --paragraph: 400 1rem/160% var(--font-tangerine); /* 16px */
+    --h1: 800 4rem/120% var(--font-Raleway);        /* 64px */
+    --h2: 800 3rem/120% var(--font-Raleway);        /* 48px */
+    --h3: 400 2.5rem/160% var(--font-tangerine);        /* 32px */
+    --span: 500 1rem/100% var(--font-Raleway);  /* 14px */
+    --paragraph: 400 1rem/160% var(--font-Raleway); /* 16px */
 }
 
 /* utilitários */
@@ -90,5 +96,5 @@
 
 .bold {
   font-weight: bold;
-  
+
 }
