@@ -16,21 +16,423 @@
             </figure>
             
             <nav>
-                <ul class="nav-list">
+                <ul class="nav-list text-default">
                     <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Meus serviços</a></li>
-                    <li><a href="#">Criativos</a></li>
-                    <li><a href="#">Sociais</a></li>
+                    <li><a href="#services">Meus serviços</a></li>
+                    <li><a href="#criativos">Criativos</a></li>
+                    <li><a href="#plans">Planos</a></li>
+                    <li><a href="#sociais">Sociais</a></li>
                 </ul>
             </nav>
     </header>
 
     <main>
-        <section class="about-me">
-            <div>
-                <img src="" alt="">
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="hero-subtitle">Marketing visual & design gráfico</span>
+
+                <h1>Thayná Medeiros</h1>
+
+                <p>
+                Estratégias visuais para marcas que querem se posicionar com elegância,
+                criatividade e presença digital. Criação de identidades visuais,
+                artes para redes sociais e materiais digitais com personalidade.
+                </p>
+
+                <p>
+                    Sou apaixonada por criar marcas com elegância, personalidade e presença. Transformo ideias em identidades visuais, artes para redes sociais e materiais digitais que comunicam com beleza e propósito.
+                </p>
+
+                <div class="hero-buttons">
+                <a href="#criativos" class="btn-primary">Ver criativos</a>
+                <a href="#servicos" class="btn-secondary">Meus serviços</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="./assets/imgs/fotothayna.png" alt="Foto de Thayná Medeiros">
+            </div>
+    </section>
+
+    <section class="services" id="servicos">
+            <div class="services-header">
+                <span class="section-label">O que ofereço</span>
+                <h2 class="services-title">Meus <strong>Serviços</strong></h2>
+                <p class="services-subtitle">
+                Soluções visuais e estratégicas para marcas que querem crescer com identidade e presença digital.
+                </p>
+            </div>
+
+            <div class="services-grid" id="services">
+
+                <!-- TRÁFEGO PAGO -->
+                <div class="service-card service-card--featured">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/><path d="m13 13 6 6"/>
+                    </svg>
+                </div>
+                <h3>Tráfego Pago</h3>
+                <p>Gestão estratégica de anúncios no Meta Ads e Google Ads para atrair o público certo e converter visitas em clientes reais.</p>
+                <ul class="service-list">
+                    <li>Criação e gestão de campanhas</li>
+                    <li>Segmentação de público</li>
+                    <li>Criativos para anúncios</li>
+                    <li>Relatórios de performance</li>
+                </ul>
+                <span class="service-tag">Meta Ads · Google Ads</span>
+                </div>
+
+                <!-- IDENTIDADE VISUAL -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>
+                        </svg>
+                    </div>
+                <h3>Identidade Visual</h3>
+                <p>Construção completa da identidade da sua marca — do logo às cores, tipografia e padrões visuais que comunicam quem você é.</p>
+                <ul class="service-list">
+                    <li>Logotipo profissional</li>
+                    <li>Paleta de cores & tipografia</li>
+                    <li>Manual de marca</li>
+                    <li>Aplicações da identidade</li>
+                </ul>
+                <span class="service-tag">Branding · Logo</span>
+                </div>
+
+                <!-- DESIGN GRÁFICO -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                <h3>Design Gráfico</h3>
+                <p>Peças visuais com personalidade para todos os momentos — do dia a dia das redes sociais a materiais impressos especiais.</p>
+                <ul class="service-list">
+                    <li>Banners e panfletos</li>
+                    <li>Posts e stories</li>
+                    <li>Cardápios digitais e impressos</li>
+                    <li>Apresentações</li>
+                </ul>
+                <span class="service-tag">Digital · Impresso</span>
+                </div>
+
+                <!-- CONVITES & PAPELARIA -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z"/><path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10"/>
+                        </svg>
+                    </div>
+                <h3>Convites & Papelaria</h3>
+                <p>Convites e papelaria personalizados que transformam eventos em memórias — com elegância, emoção e atenção a cada detalhe.</p>
+                <ul class="service-list">
+                    <li>Casamentos & 15 anos</li>
+                    <li>Aniversários & formaturas</li>
+                    <li>Convites digitais e impressos</li>
+                    <li>Kits de papelaria completos</li>
+                </ul>
+                <span class="service-tag">Eventos · Celebrações</span>
+                </div>
+
             </div>
         </section>
+
+            <section class="creatives" id="criativos">
+                <div class="creatives-header">
+                    <span class="section-label">Trabalhos recentes</span>
+                    <h2 class="creatives-title">Meus <strong>Criativos</strong></h2>
+                    <p class="creatives-subtitle">
+                    Uma seleção de artes, identidades e peças visuais criadas com intenção e personalidade.
+                    </p>
+                </div>
+
+                <div class="creatives-track-wrapper">
+                    <div class="creatives-track">
+
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/cardapioducheff.png" alt="Arte 01">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Cardapio DuCheff</span>
+                        <span class="creative-type">Cardapio</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/flyer1.png" alt="Arte 02">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Flyer de evento</span>
+                        <span class="creative-type">Flyer</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/logo1.png" alt="Arte 03">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Logo empresarial em conjunto com a vivo</span>
+                        <span class="creative-type">logo</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/cardapiopubgloria.png" alt="Arte 04">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Cardapio Pub gloria</span>
+                        <span class="creative-type">Cardápio</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/post.png" alt="Arte 05">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Post de divulgação para Vivo </span>
+                        <span class="creative-type">Post de midias sociais</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/post2.png" alt="Arte 06">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Post de divulgação para midias sociais</span>
+                        <span class="creative-type">Post de midias sociais</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/story.png" alt="Arte 07">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Story de divulgação</span>
+                        <span class="creative-type">Story para instagram</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/post3.png" alt="Arte 08">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Post de divulgação para midias sociais</span>
+                        <span class="creative-type">Post de midias sociais</span>
+                        </div>
+                    </div>
+
+                    <!--  DUPLICATA PARA O LOOP INFINITO  -->
+
+                  
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/cardapioducheff.png" alt="Arte 01">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Cardapio DuCheff</span>
+                        <span class="creative-type">Cardapio</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/flyer1.png" alt="Arte 02">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Flyer de evento</span>
+                        <span class="creative-type">Flyer</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/logo1.png" alt="Arte 03">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Logo empresarial em conjunto com a vivo</span>
+                        <span class="creative-type">logo</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/cardapiopubgloria.png" alt="Arte 04">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Cardapio Pub gloria</span>
+                        <span class="creative-type">Cardápio</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/post.png" alt="Arte 05">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Post de divulgação para Vivo </span>
+                        <span class="creative-type">Post de midias sociais</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/post2.png" alt="Arte 06">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Post de divulgação para midias sociais</span>
+                        <span class="creative-type">Post de midias sociais</span>
+                        </div>
+                    </div>
+
+                     <div class="creative-card">
+                        <img src="./assets/imgs/artes/story.png" alt="Arte 07">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Story de divulgação</span>
+                        <span class="creative-type">Story para instagram</span>
+                        </div>
+                    </div>
+
+                    <div class="creative-card">
+                        <img src="./assets/imgs/artes/post3.png" alt="Arte 08">
+                        <div class="creative-overlay">
+                        <span class="creative-name">Post de divulgação para midias sociais</span>
+                        <span class="creative-type">Post de midias sociais</span>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="plans" id="plans">
+                    <div class="plans-header">
+                        <span class="section-label">Escolha seu plano</span>
+                        <h2 class="plans-title">Planos para sua <strong>marca crescer</strong></h2>
+                        <p class="plans-subtitle">
+                        Opções pensadas para quem precisa de presença visual, estratégia e consistência nas redes.
+                        </p>
+                    </div>
+
+                    <div class="plans-deck">
+                        <article class="plan-card plan-card--left">
+                        <span class="plan-badge">Essencial</span>
+
+                        <h3>Plano Start</h3>
+
+                        <p class="plan-description">
+                            Para marcas que estão começando e precisam de uma presença visual mais profissional.
+                        </p>
+
+                        <div class="plan-price">
+                            <span>A partir de</span>
+                            <strong>R$ 349</strong>
+                        </div>
+
+                        <ul class="plan-list">
+                            <li>Artes para redes sociais</li>
+                            <li>Identidade visual básica</li>
+                            <li>Direção visual inicial</li>
+                            <li>Entrega organizada dos arquivos</li>
+                        </ul>
+
+                        <a href="#" class="plan-button">Quero esse plano</a>
+                        </article>
+
+                        <article class="plan-card plan-card--center">
+                        <span class="plan-badge plan-badge--featured">Mais escolhido</span>
+
+                        <h3>Plano Pro</h3>
+
+                        <p class="plan-description">
+                            Para negócios que querem consistência visual, estratégia e campanhas com mais impacto.
+                        </p>
+
+                        <div class="plan-price">
+                            <span>A partir de</span>
+                            <strong>R$ 897</strong>
+                        </div>
+
+                        <ul class="plan-list">
+                            <li>Posts, stories e criativos</li>
+                            <li>Campanhas para tráfego pago</li>
+                            <li>Organização visual do perfil</li>
+                            <li>Acompanhamento estratégico</li>
+                        </ul>
+
+                        <a href="#" class="plan-button">Quero esse plano</a>
+                        </article>
+
+                        <article class="plan-card plan-card--right">
+                        <span class="plan-badge">Premium</span>
+
+                        <h3>Plano Full</h3>
+
+                        <p class="plan-description">
+                            Para marcas que querem uma presença completa, elegante e preparada para vender mais.
+                        </p>
+
+                        <div class="plan-price">
+                            <span>A partir de</span>
+                            <strong>R$ 1.497</strong>
+                        </div>
+
+                        <ul class="plan-list">
+                            <li>Gestão visual completa</li>
+                            <li>Criativos para anúncios</li>
+                            <li>Identidade e posicionamento</li>
+                            <li>Suporte e otimizações</li>
+                        </ul>
+
+                        <a href="#" class="plan-button">Quero esse plano</a>
+                        </article>
+                    </div>
+                    </section>
+
+                <footer class="site-footer" id="sociais">
+                    <div class="footer-glow"></div>
+
+                    <div class="footer-content">
+                        <div class="footer-brand">
+                        <h2>Thayná <strong>Visual</strong></h2>
+                        <p>
+                            Design gráfico, identidade visual e tráfego pago para marcas que querem se destacar com elegância.
+                        </p>
+
+                        <div class="footer-socials">
+                            <a href="https://www.instagram.com/thayna.visualmarketing/" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/>
+                                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/>
+                                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+                            </svg>
+                            </a>
+
+                            <a href="https://wa.me/5547997686698?text=Ol%C3%A1!%20Vi%20seu%20portf%C3%B3lio%20e%20tenho%20interesse%20em%20conversar%20sobre%20um%20projeto.%20Podemos%20falar%20melhor%20por%20aqui%3F" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M4.5 19.5 5.7 15.6A8 8 0 1 1 8.4 18.3L4.5 19.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                                <path d="M9.2 8.8c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .5.3l.7 1.6c.1.3.1.5-.1.7l-.4.5c-.1.1-.2.3 0 .5.4.8 1.2 1.6 2.1 2 .2.1.4.1.5-.1l.6-.7c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6 0 .7-.5 1.5-1.1 1.7-.6.3-2.6.2-4.5-1.3-1.9-1.4-3.1-3.5-3.2-4.6-.1-.8.3-1.5.6-1.9Z" fill="currentColor"/>
+                            </svg>
+                            </a>
+                        </div>
+                        </div>
+
+                        <div class="footer-column">
+                        <h3>Navegação</h3>
+                        <a href="#inicio">Início</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#criativos">Criativos</a>
+                        <a href="#planos">Planos</a>
+                        </div>
+
+                        <div class="footer-column">
+                        <h3>Serviços</h3>
+                        <span>Identidade visual</span>
+                        <span>Design para social media</span>
+                        <span>Criativos para anúncios</span>
+                        <span>Tráfego pago</span>
+                        </div>
+
+                        <div class="footer-column">
+                        <h3>Contato</h3>
+                        <span>Atendimento online</span>
+                        <span>Orçamentos personalizados</span>
+                        <span>Projetos sob medida</span>
+                        <a href="#">Fale comigo</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <span>© 2026 Thayná Visual Marketing</span>
+                        <span>Design estratégico com personalidade.</span>
+                    </div>
+                </footer>
+
+        
+
     </main>
 </body>
 </html>

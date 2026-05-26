@@ -11,32 +11,22 @@
 }
 
 :root{
-    --color-primary: #F3D5B5;
-    --color-secondary: #E7BC91;
     --color-accent: #583101;
     --color-background: #FFEDD8;
-    --color-text: #333333;
+    --color-text: #8B5E34;
 
     --font-Raleway:"Raleway", sans-serif;
     --font-tangerine:"Tangerine", cursive;
     --font-inter: "Inter", sans-serif;
 
-    --h1: 800 4rem/120% var(--font-Raleway);        /* 64px */
+    --h1: 800 6rem/120% var(--font-tangerine);        /* 64px */
     --h2: 800 3rem/120% var(--font-Raleway);        /* 48px */
     --h3: 400 2.5rem/160% var(--font-tangerine);        /* 32px */
     --span: 500 1rem/100% var(--font-Raleway);  /* 14px */
     --paragraph: 400 1rem/160% var(--font-Raleway); /* 16px */
 }
 
-/* utilitários */
-
-.text-primary {
-  color: var(--color-primary);
-}
-
-.text-secondary {
-  color: var(--color-secondary);
-}
+/* Utilitários de texto e estilos reutilizáveis */
 
 .text-accent {
   color: var(--color-accent);
@@ -46,55 +36,10 @@
   color: var(--color-text);
 }
 
-.bg-primary {
-  background-color: var(--color-primary);
-}
-
-.bg-secondary {
-  background-color: var(--color-secondary);
-}
-
-.bg-accent {
-  background-color: var(--color-accent);
-}
-
-.bg-background {
-  background-color: var(--color-background);
-}
-
-.font-raleway {
-  font-family: var(--font-Raleway);
-}
-
-.font-playwrite {
-  font-family: var(--font-tangerine);
-}
-
-.font-inter {
-  font-family: var(--font-inter);
-}
-
-.h1 {
-  font: var(--h1);
-}
-
-.h2 {
-  font: var(--h2);
-}
-
 .h3 {
   font: var(--h3);
 }
 
-.span {
-  font: var(--span);
-}
-
-.paragraph {
-  font: var(--paragraph);
-}
-
 .bold {
   font-weight: bold;
-
 }
